@@ -65,6 +65,16 @@ fn main() {
     let _five_hundred = tup.0;
     let _six_point_four = tup.1;
     let _one = tup.2;
+
+    println!("------------------3.2 array type----------------");
+    // useful when you want your data allocated on the stack rather than the heap
+    let _a = [1, 2, 3, 4, 5];
+    let _months = ["January", "February", "March", "April", "May", "June", "July",
+                  "August", "September", "October", "November", "December"];
+
+    let a: [i32; 5] = [10, 20, 30, 40, 50];
+    let a = [3;5]; // [3, 3, 3, 3, 3]
+    println!("The value of a [3;5] is: {}, {}, {}, {}, {}", a[0], a[1], a[2], a[3], a[4]);
 }
 
 fn numberic_operations() {
