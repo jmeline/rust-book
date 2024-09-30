@@ -49,6 +49,7 @@ mod tests {
         assert_eq!(fahrenheit_to_celsius(100.0), 37.77777777777778);
         assert_eq!(fahrenheit_to_celsius(50.0), 10.0);
         assert_eq!(fahrenheit_to_celsius(25.0), -3.888888888888889);
+        assert_eq!(fahrenheit_to_celsius(212.0), 100.0);
     }
 
     #[test]
