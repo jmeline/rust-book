@@ -13,3 +13,7 @@ path = "examples/guessing_game.rs"
 [[bin]]
 name = "element_access"
 path = "examples/element_access.rs"
+
+[[bin]]
+name = "fibo"
+path = "examples/fibo.rs"
