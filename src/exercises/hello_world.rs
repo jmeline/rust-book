@@ -17,7 +17,7 @@
 // 2. The ! indicates that println! is a macro.
 // 3. The println! macro is used to print text to the console.
 
-fn main() {
+pub fn hello_world() {
     println!("Hello, world!");
     println!("I'm a Rustacean!");
 }
