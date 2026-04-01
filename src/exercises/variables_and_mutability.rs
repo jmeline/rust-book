@@ -1,6 +1,7 @@
+
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
-fn main() {
+pub fn main() {
     // https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html
 
     // variables
@@ -72,7 +73,7 @@ fn main() {
     let _months = ["January", "February", "March", "April", "May", "June", "July",
                   "August", "September", "October", "November", "December"];
 
-    let a: [i32; 5] = [10, 20, 30, 40, 50];
+    let _a: [i32; 5] = [10, 20, 30, 40, 50];
     let a = [3;5]; // [3, 3, 3, 3, 3]
     println!("The value of a [3;5] is: {}, {}, {}, {}, {}", a[0], a[1], a[2], a[3], a[4]);
 }
