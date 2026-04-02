@@ -5,15 +5,3 @@ edition = "2024"
 
 [dependencies]
 rand = "0.10.0"
-
-[[bin]]
-name = "guessing_game"
-path = "examples/guessing_game.rs"
-
-[[bin]]
-name = "element_access"
-path = "examples/element_access.rs"
-
-[[bin]]
-name = "fibo"
-path = "examples/fibo.rs"
